@@ -1,0 +1,14 @@
+server:
+  port: 81
+spring:
+  datasource:
+    url: jdbc:mysql://rm-wz9lz8n6l34vfrn5pmo.mysql.rds.aliyuncs.com:3308/mydbone
+    username: myadim
+    password: TR02005zx
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    filter: stat
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    ddl-auto: none

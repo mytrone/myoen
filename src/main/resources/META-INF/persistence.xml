@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="zx">
+        <class>com.example.demo.eity.Myone</class>
+        <properties>
+            <property name="hibernate.connection.url"
+                      value="jdbc:mysql://rm-wz9lz8n6l34vfrn5pmo.mysql.rds.aliyuncs.com:3308"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>
