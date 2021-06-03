@@ -15,7 +15,7 @@ public class One {
 
     @GetMapping
     public Myone string(){
-        Myone myone=new Myone(null,"都是");
+        Myone myone=new Myone(null,"都是i");
         Myone save = myoneService.save(myone);
         return save;
     }
