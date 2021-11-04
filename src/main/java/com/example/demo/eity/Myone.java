@@ -8,6 +8,7 @@ public class Myone {
     private Integer myid;
     private String myname;
 	private Integer age;
+	private Integer ag;
 
     public Myone() {
     }
