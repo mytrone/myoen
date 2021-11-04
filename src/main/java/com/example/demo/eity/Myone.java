@@ -7,6 +7,7 @@ import java.util.Objects;
 public class Myone {
     private Integer myid;
     private String myname;
+    private String ages;
 
     public Myone() {
     }
