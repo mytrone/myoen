@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity
 public class Myone {
-    private Integer myid;
+    private Integer myid;//主键
     private String myname;
 
     public Myone() {
