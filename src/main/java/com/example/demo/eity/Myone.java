@@ -6,6 +6,7 @@ import java.util.Objects;
 @Entity
 public class Myone {
     private Integer myid;
+    //名字
     private String myname;
 
     public Myone() {
